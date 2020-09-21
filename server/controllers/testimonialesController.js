@@ -42,7 +42,5 @@ exports.agregarTestimonial = async (req, res) => {
             correo,
             mensaje
         })
-        .then(testimonial => res.redirect('/testimoniales'))
-        .catch(error => console.log(error));
     }
 }
